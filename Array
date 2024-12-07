@@ -1,0 +1,47 @@
+
+public class Array1 {
+	public static void main(String args[])
+	{
+		
+		int []int1= {1,2,3,4,5,6,100};
+		
+		String []str= {"123", "hello", "@$$@"};
+		
+		System.out.print("[ ");
+//		print the intger type data in array using for loop
+		for(int a=0; a<int1.length;a++) 
+		{
+		System.out.print(int1[a]+" ");
+		}
+		System.out.println("]");;
+
+		
+//		print the String type data in array using for loop
+		System.out.print("[ ");
+		for(int st=0; st<str.length;st++) 
+		{
+			System.out.print(str[st]+" ");
+		}
+		System.out.println("]");
+		
+//		print the Decimal type data in array using for loop
+		double []dub = {43.01d, 78.45d, 89.45d, 99.99d};
+		System.out.print("[ ");
+		for(int du = 0; du<dub.length;du++)
+		{
+			System.out.print(dub[du]+" ");
+		}
+		System.out.println("]");
+		
+//		print the boolean type data in array using for loop
+		boolean [] bol = {true, false};
+		System.out.print("[ ");
+		for(int bl = 0; bl<bol.length;bl++)
+		{
+			System.out.print(bol[bl]+" ");
+		}
+		System.out.println("]");
+
+	}
+
+}
